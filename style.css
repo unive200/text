@@ -1,157 +1,196 @@
-﻿
-body {
-  font-family: Arial, Verdana,  sans-serif; /* Семейство шрифтов */
-  font-size: 11pt; /* Размер основного шрифта в пунктах  */
-  background-color: #f0f0f0; /* Цвет фона веб-страницы */
-  color: #333; /* Цвет основного текста */ 
+﻿body {
+  font-family: Arial, Verdana, sans-serif;
+  /* Семейство шрифтов */
+  font-size: 11pt;
+  /* Размер основного шрифта в пунктах  */
+  background-color: #f0f0f0;
+  /* Цвет фона веб-страницы */
+  color: #333;
+  /* Цвет основного текста */
 }
+
 h1 {
-  color: red; /* Цвет заголовка */
-  font-size: 24pt; /* Размер шрифта в пунктах */
-  font-family: Georgia, Times, serif; /* Семейство шрифтов */
-  font-weight: normal; /* Нормальное начертание текста  */
-  font-size: 250% ;
+  color: red;
+  /* Цвет заголовка */
+  font-size: 24pt;
+  /* Размер шрифта в пунктах */
+  font-family: Georgia, Times, serif;
+  /* Семейство шрифтов */
+  font-weight: normal;
+  /* Нормальное начертание текста  */
+  font-size: 250%;
 }
+
 [data-tooltip]:hover:after {
-  content: attr(data-tooltip); /* Выводим текст */
+  content: attr(data-tooltip);
+  /* Выводим текст */
   opacity: 1;
-  transition: 1s
-  pointer-events none;
+  transition: 1s pointer-events none;
 }
- 
+
 article {
   margin-right: 240px;
   display: block;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 250%;
- }
- .menu {
+}
+
+.menu {
   list-style-type: none;
   margin-left: 0;
   padding-left: 0;
 }
+
 .menu a {
- text-decoration: none;
- font-family: sans-serif;
+  text-decoration: none;
+  font-family: sans-serif;
   color: black;
   display: inline-block;
   padding: 10px 20px;
   background-color: white;
   border-bottom: 5px solid red;
 }
+
 li {
-  color:red ;
-  font-size: 200% ;
-  font-family: Arial, sans-serif; /* Рубленый шрифт */
+  color: red;
+  font-size: 200%;
+  font-family: Arial, sans-serif;
+  /* Рубленый шрифт */
   display: inline;
 }
-body {background: url(https://img3.akspic.ru/crops/7/5/3/8/5/158357/158357-mazda_rx_7-mazda_motor_corporation-car-mazda-mazda_rx_8-1920x1080.jpg) no-repeat ; /* Фоновый рисунок */
-background-size: cover; 
-} 
-.letter { 
-color: rgb(255, 255, 255); /* Красный цвет символов */ 
-font-size: 150%; /* Размер шрифта в процентах */ 
-font-family: serif; /* Шрифт с засечками */ 
-position: relative; /* Относительное позиционирование */ 
+
+body {
+  background: url(https://img3.akspic.ru/crops/7/5/3/8/5/158357/158357-mazda_rx_7-mazda_motor_corporation-car-mazda-mazda_rx_8-1920x1080.jpg) no-repeat;
+  /* Фоновый рисунок */
+  background-size: cover;
 }
+
+.letter {
+  color: rgb(255, 255, 255);
+  /* Красный цвет символов */
+  font-size: 150%;
+  /* Размер шрифта в процентах */
+  font-family: serif;
+  /* Шрифт с засечками */
+  position: relative;
+  /* Относительное позиционирование */
+}
+
 article {
-  font-size: 200% ;
-  font-family: 'Times New Roman', Times, serif ;
-  font-style:italic 
-  color #4ef52d ;
+  font-size: 200%;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic color #4ef52d;
 }
+
 p {
- color:rgb(255, 0, 0)  ;
- font-size: 150% ;
- display: flex;
- justify-content: space-between;
-}   
+  color: rgb(255, 0, 0);
+  font-size: 150%;
+  display: flex;
+  justify-content: space-between;
+}
+
 q1 {
- color:red ;
- font-size: 125% ;
+  color: red;
+  font-size: 125%;
 }
+
 .header {
-color:blue
+  color: blue
 }
+
 a {
-text-decoration: none ; /* Убирание полей */
+  text-decoration: none;
+  /* Убирание полей */
 }
+
 .a5 {
-font-size: 150%;
+  font-size: 150%;
 }
+
 mark {
-color: red;
-font-size: 150;
+  color: red;
+  font-size: 150;
 }
+
 * {
-box-sizing:border-box;
+  box-sizing: border-box;
 }
+
 body {
   position: relative;
   font-family: "Montserrat", sans-serif;
 }
+
 .wrapper {
-position: relative;
-width : 100%;
-height: 100vh;
-justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
 }
+
 ul {
-list-style: none;
-display: flex;
+  list-style: none;
+  display: flex;
 }
+
 ul li {
-position: relative;
-cursor: pointer;
-text-align: center;
-margin: 0 25px;
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+  margin: 0 25px;
 }
+
 ul li h2 {
-color: rgb(red)
+  color: rgb(red)
 }
+
 .content {
-position: absolute;
-bottom: 70px;
-left: 55%;
-height: auto;
-width: 400px;
-background-color: white;
-padding: 25px;
-border-radius: 6px;
--webkit-transform: translateX(-50%) translateY(-50px);
--moz-transform: translateX(-50%) translateY(-50px);
--o-transform: translateX(-50%) translateY(-50px);
-transform: translateX(-50%) translateY(-50px);
-opacity: 0;
-visibility: hidden;
--webkit-transition: all .5s ease;
--moz-transition: all .5s ease;
--ms-transition: all .5s ease;
--o-transition: all .5s ease;
-transition: all .5s ease;
+  position: absolute;
+  bottom: 70px;
+  left: 55%;
+  height: auto;
+  width: 400px;
+  background-color: white;
+  padding: 25px;
+  border-radius: 6px;
+  -webkit-transform: translateX(-50%) translateY(-50px);
+  -moz-transform: translateX(-50%) translateY(-50px);
+  -o-transform: translateX(-50%) translateY(-50px);
+  transform: translateX(-50%) translateY(-50px);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
 }
+
 .content h4 {
   margin-bottom: 55px;
 }
+
 .content:after {
   content: "";
   position: inherit;
   bottom: 0px;
   height: 0px;
   background-color: #f0f0f0;
--webkit-transform: scale(45deg);
--moz-transform: scale(45deg);
--o-transform: scale(45deg);
-transform: scale(45deg);
+  -webkit-transform: scale(45deg);
+  -moz-transform: scale(45deg);
+  -o-transform: scale(45deg);
+  transform: scale(45deg);
 }
+
 ul li:hover .content {
-opacity: 1;
-visibility: visible;
--webkit-transform: translateX(-50%) translateY(-25px);
--moz-transform: translateX(-50%) translateY(-25px);
--o-transform: translateX(-50%) translateY(-25px);
-transform: translateX(-50%) translateY(-25px);
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: translateX(-50%) translateY(-25px);
+  -moz-transform: translateX(-50%) translateY(-25px);
+  -o-transform: translateX(-50%) translateY(-25px);
+  transform: translateX(-50%) translateY(-25px);
 }
+
 .jdmbutton {
   display: flex;
   align-items: center;
@@ -159,61 +198,76 @@ transform: translateX(-50%) translateY(-25px);
   justify-content: space-around;
   /*background-color: red;*/
 }
+
 .btn- {
- border: 1px solid;
- background-color: transparent;
- text-transform: uppercase;
- font-size: 16px;
- padding: 10px 20px;
- font-weight: 300;
- transition: 0,3s;
+  border: 1px solid;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: 10px 20px;
+  font-weight: 300;
+  transition: 0, 3s;
 }
+
 .first {
-  color:white;
+  color: white;
 }
+
 .second {
-  color:white;
+  color: white;
 }
+
 .third {
   color: red;
 }
+
 .fourth {
   color: red;
 }
+
 .fifth {
   color: white;
 }
+
 .sixth {
   color: white;
 }
+
 .btn-:hover {
- color: red;
- border: 0;
+  color: red;
+  border: 0;
 }
+
 .first:hover {
-background-color: white;
-box-shadow: 10px 10px 100px 6px rgba(255, 0, 0, 1) ;
+  background-color: white;
+  box-shadow: 10px 10px 100px 6px rgba(255, 0, 0, 1);
 }
+
 .second:hover {
   background-color: white;
-  box-shadow: 10px 10px 100px 6px rgba(255, 0, 0, 1) ;
+  box-shadow: 10px 10px 100px 6px rgba(255, 0, 0, 1);
 }
+
 .third:hover {
- background-color: white;
- box-shadow: 10px 10px 100px 6px rgba(255, 0, 0, 1)
+  background-color: white;
+  box-shadow: 10px 10px 100px 6px rgba(255, 0, 0, 1)
 }
+
 .fourth:hover {
   background-color: white;
-  box-shadow: 10px 10px 100px 6px rgba(240, 240, 240, 1) ;
+  box-shadow: 10px 10px 100px 6px rgba(240, 240, 240, 1);
 }
+
 .fifth:hover {
   background-color: white;
-  box-shadow: 10px 10px 100px 6px rgba(255, 0, 0) ;
+  box-shadow: 10px 10px 100px 6px rgba(255, 0, 0);
 }
+
 .sixth:hover {
   background-color: white;
   box-shadow: 10px 10px 100px 6px rgba(240, 240, 240, 1)
 }
+
 .wrapper {
   width: 50vw;
   height: 50vh;
@@ -221,23 +275,25 @@ box-shadow: 10px 10px 100px 6px rgba(255, 0, 0, 1) ;
   align-items: center;
   justify-content: center;
 }
+
 @font-face {
   font-family: neon;
   src: url(Megumi.ttf);
 }
+
 .neon-text {
-  font-family:neon;
+  font-family: neon;
   font-size: 14rem;
   color: #ff0000;
   text-shadow:
-    .1vw 0vw .25vw #ffd8d8, .2vw 0vw .25vw #ffd8d8, .4vw 0vw .25vw #ffd8d8, 
-  
-    .1vw 0vw   0vw #f25757, .2vw 0vw   0vw #f25757, .4vw 0vw   0vw #f25757,
-    .1vw 0vw  .1vw #f25757, .2vw 0vw  .1vw #f25757, .4vw 0vw  .1vw #f25757,
-    .1vw 0vw   2vw #f25757, .2vw 0vw   2vw #f25757, .4vw 0vw   2vw #f25757, 
-  
-    .1vw 0vw   1vw #e50b0b, .2vw 0vw   1vw #e50b0b, .4vw 0vw   5vw #e50b0b, 
-    .1vw 0vw   5vw #e50b0b, .2vw 0vw  20vw #e50b0b, .4vw 0vw  10vw #e50b0b,
-    .1vw 0vw  10vw #e50b0b, .2vw 0vw  30vw #e50b0b, .4vw 0vw  10vw #e50b0b;
-  
+    .1vw 0vw .25vw #ffd8d8, .2vw 0vw .25vw #ffd8d8, .4vw 0vw .25vw #ffd8d8,
+
+    .1vw 0vw 0vw #f25757, .2vw 0vw 0vw #f25757, .4vw 0vw 0vw #f25757,
+    .1vw 0vw .1vw #f25757, .2vw 0vw .1vw #f25757, .4vw 0vw .1vw #f25757,
+    .1vw 0vw 2vw #f25757, .2vw 0vw 2vw #f25757, .4vw 0vw 2vw #f25757,
+
+    .1vw 0vw 1vw #e50b0b, .2vw 0vw 1vw #e50b0b, .4vw 0vw 5vw #e50b0b,
+    .1vw 0vw 5vw #e50b0b, .2vw 0vw 20vw #e50b0b, .4vw 0vw 10vw #e50b0b,
+    .1vw 0vw 10vw #e50b0b, .2vw 0vw 30vw #e50b0b, .4vw 0vw 10vw #e50b0b;
+
 }
