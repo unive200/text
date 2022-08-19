@@ -135,7 +135,6 @@ ul {
 
 ul li {
   position: relative;
-  cursor: pointer;
   text-align: center;
   margin: 0 25px;
 }
@@ -144,52 +143,6 @@ ul li h2 {
   color: rgb(red)
 }
 
-.content {
-  position: absolute;
-  bottom: 70px;
-  left: 55%;
-  height: auto;
-  width: 400px;
-  background-color: white;
-  padding: 25px;
-  border-radius: 6px;
-  -webkit-transform: translateX(-50%) translateY(-50px);
-  -moz-transform: translateX(-50%) translateY(-50px);
-  -o-transform: translateX(-50%) translateY(-50px);
-  transform: translateX(-50%) translateY(-50px);
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transition: all .5s ease;
-  -moz-transition: all .5s ease;
-  -ms-transition: all .5s ease;
-  -o-transition: all .5s ease;
-  transition: all .5s ease;
-}
-
-.content h4 {
-  margin-bottom: 55px;
-}
-
-.content:after {
-  content: "";
-  position: inherit;
-  bottom: 0px;
-  height: 0px;
-  background-color: #f0f0f0;
-  -webkit-transform: scale(45deg);
-  -moz-transform: scale(45deg);
-  -o-transform: scale(45deg);
-  transform: scale(45deg);
-}
-
-ul li:hover .content {
-  opacity: 1;
-  visibility: visible;
-  -webkit-transform: translateX(-50%) translateY(-25px);
-  -moz-transform: translateX(-50%) translateY(-25px);
-  -o-transform: translateX(-50%) translateY(-25px);
-  transform: translateX(-50%) translateY(-25px);
-}
 
 .jdmbutton {
   display: flex;
