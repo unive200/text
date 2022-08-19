@@ -156,6 +156,7 @@ ul li h2 {
   border: 1px solid;
   background-color: transparent;
   text-transform: uppercase;
+  cursor: pointer;
   font-size: 16px;
   padding: 10px 20px;
   font-weight: 300;
