@@ -1,5 +1,6 @@
 body {
-    background-color: black
+    background: url(wallpaper.jpg);
+    background-size: cover;
 }
 @font-face {
     font-family: neon;
@@ -8,13 +9,13 @@ body {
   .neon-text {
     font-family: neon;
     font-size: 12rem;
-    color: #ff0000;
+    color: gray;
     text-shadow:
-      .1vw 0vw .25vw #ffd8d8, .2vw 0vw .25vw #ffd8d8, .4vw 0vw .25vw #ffd8d8,
+      .1vw 0vw .25vw gray, .2vw 0vw .25vw #ffd8d8, .4vw 0vw .25vw #ffd8d8,
   
-      .1vw 0vw 0vw #f25757, .2vw 0vw 0vw #f25757, .4vw 0vw 0vw #f25757,
-      .1vw 0vw .1vw #f25757, .2vw 0vw .1vw #f25757, .4vw 0vw .1vw #f25757,
-      .1vw 0vw 2vw #f25757, .2vw 0vw 2vw #f25757, .4vw 0vw 2vw #f25757,
+      .1vw 0vw 0vw rgba(128, 128, 128, 0.747), .2vw 0vw 0vw #f25757, .4vw 0vw 0vw #f25757,
+      .1vw 0vw .1vw rgba(128, 128, 128, 0.747) .2vw 0vw .1vw #f25757, .4vw 0vw .1vw #f25757,
+      .1vw 0vw 2vw rgba(128, 128, 128, 0.747) .2vw 0vw 2vw #f25757, .4vw 0vw 2vw #f25757,
   
       .1vw 0vw 1vw #e50b0b, .2vw 0vw 1vw #e50b0b, .4vw 0vw 5vw #e50b0b,
       .1vw 0vw 5vw #e50b0b, .2vw 0vw 20vw #e50b0b, .4vw 0vw 10vw #e50b0b,
@@ -38,10 +39,10 @@ body {
     transition: 0, 3s;
   }
   .first {
-    color: white;
+    color: black;
   }
   .first:hover {
-    background-color: red;
-    box-shadow: 10px 10px 100px 6px rgba(255, 0, 0, 1);
+    background-color: black;
+    box-shadow: 10px 10px 100px 6px rgb(197, 185, 185);
   }
   
