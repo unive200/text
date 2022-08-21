@@ -10,13 +10,13 @@ body {
   .neon-text {
     font-family: neon;
     font-size: 12rem;
-    color: gray;
+    color: white;
     text-shadow:
-      .1vw 0vw .25vw gray, .2vw 0vw .25vw #ffd8d8, .4vw 0vw .25vw #ffd8d8,
+      .1vw 0vw .25vw white, .2vw 0vw .25vw #ffd8d8, .4vw 0vw .25vw #ffd8d8,
   
-      .1vw 0vw 0vw rgba(128, 128, 128, 0.747), .2vw 0vw 0vw #f25757, .4vw 0vw 0vw #f25757,
-      .1vw 0vw .1vw rgba(128, 128, 128, 0.747) .2vw 0vw .1vw #f25757, .4vw 0vw .1vw #f25757,
-      .1vw 0vw 2vw rgba(128, 128, 128, 0.747) .2vw 0vw 2vw #f25757, .4vw 0vw 2vw #f25757,
+      .1vw 0vw 0vw rgb(255, 255, 255), .2vw 0vw 0vw #f25757, .4vw 0vw 0vw #f25757,
+      .1vw 0vw .1vw rgba(255, 255, 255) .2vw 0vw .1vw #f25757, .4vw 0vw .1vw #f25757,
+      .1vw 0vw 2vw rgba(255, 255, 255) .2vw 0vw 2vw #f25757, .4vw 0vw 2vw #f25757,
   
       .1vw 0vw 1vw #e50b0b, .2vw 0vw 1vw #e50b0b, .4vw 0vw 5vw #e50b0b,
       .1vw 0vw 5vw #e50b0b, .2vw 0vw 20vw #e50b0b, .4vw 0vw 10vw #e50b0b,
@@ -45,6 +45,21 @@ body {
   .first:hover {
     background-color: rgba(0, 0, 0, 0.144);
     box-shadow: 10px 10px 100px 6px rgb(197, 185, 185);
+  }
+  .red {
+    font-family: neon;
+    font-size: 12rem;
+    color: red;
+    text-shadow:
+      .1vw 0vw .25vw white, .2vw 0vw .25vw #ffd8d8, .4vw 0vw .25vw #ffd8d8,
+  
+      .1vw 0vw 0vw rgb(255, 255, 255), .2vw 0vw 0vw #f25757, .4vw 0vw 0vw #f25757,
+      .1vw 0vw .1vw rgba(255, 255, 255) .2vw 0vw .1vw #f25757, .4vw 0vw .1vw #f25757,
+      .1vw 0vw 2vw rgba(255, 255, 255) .2vw 0vw 2vw #f25757, .4vw 0vw 2vw #f25757,
+  
+      .1vw 0vw 1vw #e50b0b, .2vw 0vw 1vw #e50b0b, .4vw 0vw 5vw #e50b0b,
+      .1vw 0vw 5vw #e50b0b, .2vw 0vw 20vw #e50b0b, .4vw 0vw 10vw #e50b0b,
+      .1vw 0vw 10vw #e50b0b, .2vw 0vw 30vw #e50b0b, .4vw 0vw 10vw #e50b0b;
   }
 .takumi {
   float: right;
