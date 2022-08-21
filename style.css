@@ -63,6 +63,7 @@ body {
   background: url(https://img3.akspic.ru/crops/7/5/3/8/5/158357/158357-mazda_rx_7-mazda_motor_corporation-car-mazda-mazda_rx_8-1920x1080.jpg) no-repeat;
   /* Фоновый рисунок */
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .letter {

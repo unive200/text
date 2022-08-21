@@ -1,6 +1,7 @@
 body {
     background: url(wallpaper.jpg);
     background-size: cover;
+    background-attachment: fixed;
 }
 @font-face {
     font-family: neon;
@@ -42,7 +43,11 @@ body {
     color: black;
   }
   .first:hover {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.144);
     box-shadow: 10px 10px 100px 6px rgb(197, 185, 185);
   }
+.takumi {
+  float: right;
+  margin: 0 0 5px 5px;
+}
   
