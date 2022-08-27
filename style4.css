@@ -1,8 +1,3 @@
-body {
-    background: url(wallpaper.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-}
 @font-face {
     font-family: neon;
     src: url(Megumi.ttf);
@@ -27,7 +22,6 @@ body {
     align-items: center;
     height: 10vh;
     justify-content: space-around;
-    /*background-color: red;*/
   }
   .btn- {
     border: 1px solid;
@@ -60,9 +54,26 @@ body {
       .1vw 0vw 1vw #e50b0b, .2vw 0vw 1vw #e50b0b, .4vw 0vw 5vw #e50b0b,
       .1vw 0vw 5vw #e50b0b, .2vw 0vw 20vw #e50b0b, .4vw 0vw 10vw #e50b0b,
       .1vw 0vw 10vw #e50b0b, .2vw 0vw 30vw #e50b0b, .4vw 0vw 10vw #e50b0b;
-  }
+  } 
 .takumi {
-  float: right;
+  float: left;
+  background-image: url(img1.png);
   margin: 0 0 5px 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
-  
+.keisuke {
+  float: right;
+  transform: scale(-1, 1);
+  margin: 0 0 5px 5px;
+  background-image: url(img2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+ }
+ body {
+  margin: 0;
+  bottom: 0;
+  height: 100%;
+}
