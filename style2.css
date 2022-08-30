@@ -1,11 +1,11 @@
 @font-face {
   font-family: neon;
-  src: url(CitypopAutomotive\ Regular.otf);
+  src: url(Hirokawa.otf);
 }
 
 .neon-text {
   font-family: neon;
-  font-size: 7rem;
+  font-size: 3rem;
   color: #ff0000;
   text-shadow:
     .1vw 0vw .25vw #ffd8d8, .2vw 0vw .25vw #ffd8d8, .4vw 0vw .25vw #ffd8d8,
@@ -44,7 +44,7 @@ min-height: 100vh;
   right: 0;
   width: 2px;
   height: 100%;
-  background: red;
+  background: 
   animation: blinkCursor 0.8s steps(3)
 }
 @keyframes blinkCursor
@@ -61,7 +61,7 @@ min-height: 100vh;
 .loader h2 
 {
   position:relative;
-  color:red;
+  color:white;
   letter-spacing: 5px;
   font-size: 4em;
   text-transform: uppercase;
@@ -155,7 +155,7 @@ body {
 }
 /* ↑ Кнопка ↑ */
 body {
-  background: url(retro.jpg) no-repeat;
+  background: url(wallpaper2.jpg) no-repeat;
   /* Фоновый рисунок */
   background-size: cover;
   background-attachment: fixed;
