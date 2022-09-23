@@ -52,7 +52,7 @@
     font-size: 16px;
     padding: 10px 20px;
     font-weight: 300;
-    transition: 0, 3s;
+    transition: 3s;
   }
   .first {
     color: black;
@@ -63,7 +63,6 @@
   }
 .takumi {
   float: left;
-  background-image: url(img1.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -72,9 +71,15 @@
   float: right;
   transform: scale(-1, 1);
   margin: 0 0 5px 5px;
-  background-image: url(img2.png);
   background-repeat: no-repeat;
  }
+ .initial {height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+ footer {
+  flex-shrink: 0;
+}
  body {
   margin: 0;
   bottom: 0;

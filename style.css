@@ -25,7 +25,7 @@ h1 {
   content: attr(data-tooltip);
   /* Выводим текст */
   opacity: 1;
-  transition: 1s pointer-events none;
+  transition: 1s pointer-events;
 }
 
 article {
@@ -80,7 +80,6 @@ body {
 article {
   font-size: 200%;
   font-family: 'Times New Roman', Times, serif;
-  font-style: italic color #4ef52d;
 }
 
 p {
@@ -110,7 +109,7 @@ a {
 
 mark {
   color: red;
-  font-size: 150;
+  font-size: 150%;
 }
 
 * {
@@ -141,7 +140,7 @@ ul li {
 }
 
 ul li h2 {
-  color: rgb(red)
+  color: red
 }
 
 
@@ -161,7 +160,6 @@ ul li h2 {
   font-size: 16px;
   padding: 10px 20px;
   font-weight: 300;
-  transition: 0, 3s;
 }
 
 .first {

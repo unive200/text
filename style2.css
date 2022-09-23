@@ -7,6 +7,7 @@
   font-family: neon;
   font-size: 3rem;
   color: #ff0000;
+  mix-blend-mode: difference;
   text-shadow:
     .1vw 0vw .25vw #ffd8d8, .2vw 0vw .25vw #ffd8d8, .4vw 0vw .25vw #ffd8d8,
 
@@ -67,6 +68,7 @@ min-height: 100vh;
   text-transform: uppercase;
   animation: typing 8s steps(10);
   overflow: hidden;
+  mix-blend-mode: difference;
 }
 @keyframes typing
 {
