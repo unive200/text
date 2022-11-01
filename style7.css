@@ -1,0 +1,47 @@
+body {
+    background: url(wallpaper2.jpg) no-repeat;
+    /* Фоновый рисунок */
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+.bn {
+    display: flex;
+    padding: 0.65em 1.6em;
+    border: 3px solid #ffffff;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    transition: all 0.2s;
+    animation: bn13bouncy 5s infinite linear;
+    position: relative;
+  }
+  
+  .bn:hover {
+    background-color: white;
+    color: #000000;
+  }
+  .buttontwo {
+    display: flex;
+    padding: 0.75em 1.9em;
+    border: 3px solid #ffffff;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300%;
+    color: red;
+    text-align: center;
+    transition: all 0.2s;
+    animation: bn13bouncy 5s infinite linear;
+    position: relative;
+  }
+  .buttontwo:hover {
+    background-color: red;
+    color: #000000;

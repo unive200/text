@@ -89,3 +89,39 @@ ul li:last-child::after
 {
     box-shadow: -120px 120px 20px rgba(0,0,0,0.25);
 }
+
+.buycardrom {
+  align-items: center;
+  bottom: 10%;
+  background-color: #222;
+  border-radius: 40px;
+  border-style: center;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5;
+  margin: none;
+  max-width: none;
+  min-height: 40px;
+  min-width: 300px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: absolute;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.buycardrom:hover,
+.buycardrom:focus {
+  opacity: .75;
+}
+
+/*https://auto.drom.ru/all/?multiselect[]=9_0_0_0&multiselect[]=6_0_0_0&multiselect[]=2_0_0_0&multiselect[]=4_0_0_0&multiselect[]=7_0_0_0&multiselect[]=1_0_0_0&multiselect[]=8_0_0_0&multiselect[]=5_0_0_0&maxyear=2005&ph=1&pts=2&damaged=2&unsold=1*/
